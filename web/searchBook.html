@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Let's search a book for you!</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            body {
+                margin: 0;
+            }
+        </style>
+    <link rel="stylesheet" type="text/css" href="search.css">
+    </head>
+    <body>
+        <header id="header">Let's search a book for you!</header>
+        
+        <form method="post" action="searchServlet">
+        <h1>
+             <label  class="input" for="desc">Enter description</label>
+             <input type="text" id="desc" name="desc"><br><br>
+              <br>
+        <input type="submit" value="submit">
+        </h1>
+        
+         </form>
+        
+        <br>
+         <div class="returnHomeButton">
+            <button> <a href="main.jsp"> return to home page</a></button>
+        </div>
+    </body>
+</html>

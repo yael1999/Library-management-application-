@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            html{
+                scroll-behavior:smooth;
+            }
+            body {
+               
+                margin: 0;
+            }
+            #main{
+            
+             display: grid;
+             grid-template-columns: 1fr 1fr;
+             grid-gap: 20px;
+            }
+            #1{
+                
+            }
+            
+             #2{
+               
+            }
+            
+        </style>
+    <link rel="stylesheet" type="text/css" href="addBookOrStusent.css">
+    </head>
+    
+    <body>
+        <header class="header" id="h">Would you like to add student or add book? <br> Choose!</header>
+        <br>
+        
+         
+        <div id="main">
+            <div id="1">
+                <div id="addHeader1" style="color: white" > Add student!</div>
+                    <br>
+                    <form >
+                        Please select your gender:
+                        <br>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label style="color:white"  for="male">Male</label><br>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label style="color:white"  for="female">Female</label><br>
+                            <input type="radio" id="other" name="gender" value="other">
+                            <label style="color:black"  for="other">Other</label>
+                            <br>
+                            <br>  
+                            <label  class="input" for="firstName">first name</label>
+                            <input type="text" id="firstName" name="firstName"><br><br>
+                            <label  class="input" for="lastName">last name</label>
+                            <input type="text" id="lastName" name="lastName"><br><br>
+                            <label  class="input" for="Address">Address</label>
+                            <input type="text" id="Address" name="Address"><br><br>
+                            <label  class="input" for="ID">ID</label>
+                            <input type="text" id="ID" name="ID"><br><br>
+                             <label  class="input" for="email">Enter student's email</label>
+                            <input type="email" id="email" name="email">
+                            <br>
+                            <label class="input" for="password">Enter password</label>
+                            <input type="text" id="password" name="password">
+                            <br>
+                            <br>
+                            <input type="submit" value="Submit" name="submitStudent">
+                           
+                    </form>
+            </div>
+        <div id="2">
+          
+         <h3 id="addHeader2"  > Add book!</h3>
+            
+               <form>
+                    <label  class="input" for="bookName">Book name</label>
+                    <input type="text" id="bookName" name="bookName"><br><br>
+                    <label  class="input" for="Author">Author</label>
+                    <input type="text" id="Author" name="Author"><br><br>
+                    <label  class="input" for="isbn">isbn</label>
+                    <input type="text" id="isbn" name="isbn"><br><br>
+                    <label  class="input" for="choise">Choose a category</label>
+                    <label style="color:black" for="books"></label>
+                    <select name="books" id="books">
+                        <option value="Horror">Horror</option>
+                        <option value="Fiction">Fiction</option>
+                        <option value="Fantasy">Fantasy</option>
+                        <option value="Thriller">Thriller</option>
+                        <option value="Romance">Romance</option>
+                        <option value="Crime">Crime</option>
+                    </select>
+                    <br><br>
+                    <label  class="input" for="numberOfCopies">number of copies</label>
+                    <input type="number" id="numberOfCopies" name="numberOfCopies"><br>
+                     <input type="submit" value="Submit" name="submitBook">
+                </form>
+            </div>
+        </div>
+    
+        <div class="returnHomeButton">
+            <button> <a href="main.html"> return to home page</a></button>
+        </div>
+    </body>
+</html>

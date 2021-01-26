@@ -1,0 +1,37 @@
+body{
+    background-image: url('https://pbs.twimg.com/media/EeH1XaEXoAAGtYL?format=jpg&name=small') ;
+    overflow: hidden
+  
+        
+}
+.header{
+  
+  background-color:orange;
+  padding: 20px 10px;
+  font-size: 50px;
+   width: 50%;
+}
+
+.input{
+  background-color:orange;
+  font-size: 20px;
+  font-weight: bold;  
+}
+#addHeader1{
+    color: white;
+  font-size: 20px;
+  font-weight: bold; 
+ 
+}
+
+#addHeader2{
+    color:white;
+  font-size: 20px;
+  font-weight: bold; 
+ 
+}
+
+
+
+
+

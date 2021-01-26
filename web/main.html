@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Library</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .vertical-menu a {
+  width: 200px; /* Set a width if you like */
+}
+body{
+    background-image:url('http://3.bp.blogspot.com/-Nn_iIBCSEG0/VNyNgHDNIoI/AAAAAAAAAms/3GOGTRekLKU/s1600/Beautiful%2BBooks%2B5.jpg');
+}
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #663046; /* Add a grape color to the "active/current" link */
+  color: white;
+}
+.h1{
+    width: 40%
+}
+.h2{
+    width: 30%
+}
+
+
+        </style>
+    </head>
+    <body>
+        
+        <header class="h1" style="color:white;font-size:50px;background-color: #663046; ">Welcome to our library!</header>
+        <br>
+        <header class="h2" style="color:white;font-size:30px;background-color: #663046; ">What would you like to do?</header>
+        <br>
+        <div class="vertical-menu">
+            <a href="#"
+               class="active">Home</a>
+            <a href="addBookOrStudent.html">Add student or book</a> 
+             <a href="borrowBook.html">Borrow book</a> 
+             <a href="searchBook.html">Search book</a>
+             <a href="returnBook.html">Return book</a>     
+        </div>
+      
+        
+    </body>
+</html>
